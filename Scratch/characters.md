@@ -26,5 +26,5 @@ My name is:¶wamu_M
 it's followed by 3 numbers that represent an error (check the [error codes documentation](https://github.com/wamuM/docs/blob/master/Scratch/error_codes.md))
 ```
 ! exit
-¤100
+¤103
 ```

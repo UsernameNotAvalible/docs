@@ -23,7 +23,7 @@ It represents the end of a line
 My name is:¶wamu_M
 ```
 ### ``¤`` Error code
-it's followed by 3 numbers that represent an error (check the (error codes documentation)[https://#])
+it's followed by 3 numbers that represent an error (check the [error codes documentation](https://github.com/wamuM/docs/blob/master/Scratch/error_codes.md))
 ```
 ! exit
 ¤100

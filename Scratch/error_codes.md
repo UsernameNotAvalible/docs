@@ -18,5 +18,5 @@
 - ``203`` The process doesn't understand the task
 - ``204`` The process couldn't execute the task
 - ``205`` The task failed 
-- ``206`` The manager worked as proxy and couldn't resolve the answer
+- ``206`` Invalid task
 

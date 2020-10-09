@@ -16,10 +16,11 @@ Adding 4 elements to this list:
 Every app should have his own name, with no [special characters](https://github.com/wamuM/docs/blob/master/Scratch/characters.md) or spaces. It's used to recognize the app among the others.
 #### The comunicate slot
 The comunicate slot is used to ask things to other process, ``! echo hi`` or ``? text_manager write 0 0 Hi my name is thomas``. Note that on command has a ``! `` and the other a ``? ``,that's
-because you can execute your own prompt commands with the ``! `` and ask to an X app with ``? X`` (X being the app name)
+because you can execute your own prompt commands with the ``! `` and ask to an X app with ``? X`` (X being the app name). 
+*note: once you are done setting up your request, broadcast the ``comunicate`` message and wait until it's done*
 #### The response slot
 Once an app has received your task from the comunicate slot it will reply to this slot.*some apps don't reply, wich throws a ``¤200`` [error code](https://github.com/wamuM/docs/blob/master/Scratch/error_codes.md)*
-#### Receiv a task
+#### Receive a task
 If any app wants to speak with yours they will use the manager as proxy, the manager will then fill your ask slot with the task. 
 ```js
 [standart_app]

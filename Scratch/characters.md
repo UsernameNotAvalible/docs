@@ -1,6 +1,6 @@
 # Special characters for the CollabOS
-*you shouldn't use this characters for anything else that what they are ment or something could break*</br>
-*all the examples are from CollabOs projects*
+*you shouldn't use these characters for anything else that what they are meant for or something could break*</br>
+*all the examples are from CollabOS projects*
 ### ``◘`` Meta data separator
 In a formated text separates the meta data from the text:
 ```

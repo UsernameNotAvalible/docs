@@ -1,10 +1,9 @@
-# CollabOs data maneger
+# CollabOS data maneger
 A document with all the information on how to use the data manager.
 ## Start an app
-Every app should start once the OS is ready, for instance, the data manager will broadcast the ``Start`` message once all the RAM data is restarted, once this message 
-is broadcasted the app **should** log in as a process.
+Every app should start once the OS is ready, for instance, the data manager will broadcast the ``Start`` message once all the RAM data is restarted, once this message is broadcasted, **the app should log in as a process.**
 ## os>process
-There is a public list called ``os>process`` wich is used to comunicate with other apps, to be able to participate in this comunication, your app should *log in* as a process.
+There is a public list called ``os>process`` wich is used to comunicate with other apps, to be able to participate in this comunication, *your app should log in as a process.*
 Adding 4 elements to this list:
 ```js
 1[standart_app]//the name of the app

@@ -28,3 +28,8 @@ it's followed by 3 numbers that represent an error (check the [error codes docum
 ! exit
 ¤103
 ```
+### ``§`` List item
+Used for elinero's cloud list system. It repersents skipping to the next list item when decoding. A list-string looks like:
+```
+hello§hi§hello, world§this§is§a§test
+```
